@@ -10,6 +10,6 @@ packages = %w{'ruby', 'ruby-libs', 'rubygems'}
 
 packages.each do |package|
   yum_package package do
-    action :install
+    action :upgrade
   end
 end
