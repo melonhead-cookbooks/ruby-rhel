@@ -6,7 +6,11 @@
 #
 # Copyright:: Copyright (c) 2014 Salesforce Pardot
 
-packages = %w('ruby', 'ruby-libs', 'rubygems')
+packages = %w(
+  ruby
+  ruby-libs
+  rubygems
+)
 
 packages.each do |package|
   yum_package package do
